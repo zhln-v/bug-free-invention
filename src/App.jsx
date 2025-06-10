@@ -606,13 +606,13 @@ export default function App() {
           }
         />
         <Route
-          path="/"
+          path="/c"
           element={
             <DocumentScanScreen formData={formData} setFormData={setFormData} />
           }
         />
         <Route
-          path="/confirmation"
+          path="/"
           element={
             <ConfirmationScreen formData={formData} setFormData={setFormData} />
           }
