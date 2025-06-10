@@ -612,7 +612,7 @@ export default function App() {
           }
         />
         <Route
-          path="/"
+          path="/5"
           element={
             <ConfirmationScreen formData={formData} setFormData={setFormData} />
           }
@@ -627,7 +627,7 @@ export default function App() {
           }
         />
         <Route
-          path="/unknown-patient"
+          path="/"
           element={
             <UnknownPatientScreen
               formData={formData}
