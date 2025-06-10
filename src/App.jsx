@@ -612,13 +612,13 @@ export default function App() {
           }
         />
         <Route
-          path="/c"
+          path="/"
           element={
             <ConfirmationScreen formData={formData} setFormData={setFormData} />
           }
         />
         <Route
-          path="/"
+          path="/3"
           element={
             <RegistrationCompleteScreen
               formData={formData}
