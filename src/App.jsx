@@ -618,7 +618,7 @@ export default function App() {
           }
         />
         <Route
-          path="/3"
+          path="/"
           element={
             <RegistrationCompleteScreen
               formData={formData}
@@ -627,7 +627,7 @@ export default function App() {
           }
         />
         <Route
-          path="/"
+          path="/5"
           element={
             <UnknownPatientScreen
               formData={formData}
