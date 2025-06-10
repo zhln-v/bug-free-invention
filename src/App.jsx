@@ -618,7 +618,7 @@ export default function App() {
           }
         />
         <Route
-          path="/registration-complete"
+          path="/d"
           element={
             <RegistrationCompleteScreen
               formData={formData}
