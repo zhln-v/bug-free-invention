@@ -606,7 +606,7 @@ export default function App() {
           }
         />
         <Route
-          path="/"
+          path="/a"
           element={
             <DocumentScanScreen formData={formData} setFormData={setFormData} />
           }
@@ -618,7 +618,7 @@ export default function App() {
           }
         />
         <Route
-          path="/d"
+          path="/"
           element={
             <RegistrationCompleteScreen
               formData={formData}
