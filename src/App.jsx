@@ -11,7 +11,7 @@ const App = () => {
   });
   const [searchResults, setSearchResults] = useState([]);
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [searchQuery, setSearchQuery] = useState("найден");
+  const [searchQuery, setSearchQuery] = useState("");
   const [isSearching, setIsSearching] = useState(false);
 
   // Mock data for search results
