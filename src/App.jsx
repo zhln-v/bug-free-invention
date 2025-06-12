@@ -32,7 +32,7 @@ const App = () => {
     },
   ];
 
-  setSearchResults(mockResults);
+  setSearchResults([mockResults]);
 
   // Handle form input changes
   const handleInputChange = (e) => {
