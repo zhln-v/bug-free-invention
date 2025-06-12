@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const App = () => {
   // State management for different screens and form data
-  const [activeScreen, setActiveScreen] = useState("form");
+  const [activeScreen, setActiveScreen] = useState("search");
   const [formData, setFormData] = useState({
     description: "",
     date: "",
