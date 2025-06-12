@@ -32,6 +32,8 @@ const App = () => {
     },
   ];
 
+  setSearchResults(mockResults);
+
   // Handle form input changes
   const handleInputChange = (e) => {
     const { name, value } = e.target;
