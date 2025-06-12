@@ -32,7 +32,7 @@ const App = () => {
     },
   ];
 
-  // setSearchResults([mockResults]);
+  // setSearchResults(mockResults);
 
   // Handle form input changes
   const handleInputChange = (e) => {
@@ -122,7 +122,7 @@ const App = () => {
       case "search-results":
         return (
           <SearchResultsScreen
-            results={searchResults}
+            results={mockResults}
             onBack={() => setActiveScreen("landing")}
           />
         );
