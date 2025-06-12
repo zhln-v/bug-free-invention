@@ -78,7 +78,7 @@ const App = () => {
           item.location.toLowerCase().includes(searchQuery.toLowerCase())
       );
 
-      setSearchResults(filteredResults);
+      setSearchResults(mockResults);
       setIsSearching(false);
 
       if (activeScreen !== "search-results") {
